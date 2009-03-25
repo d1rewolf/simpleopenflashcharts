@@ -40,4 +40,5 @@ Rails::Initializer.run do |config|
   # config.i18n.default_locale = :de
 end
 
+# make sure this is required *before* other gems that modify to_json
 require 'report_support'

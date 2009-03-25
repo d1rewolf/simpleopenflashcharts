@@ -1,3 +1,7 @@
+Hash.class_eval do |h|
+  alias_method(:to_report_json, :to_json)
+end
+
 class ChartElement
   attr_accessor :internal_hash
   def initialize(&proc)
@@ -24,8 +28,8 @@ class ChartElement
     end
   end
 
-  def to_json(options = {})
-    @internal_hash.to_json(options)
+  def to_report_json(options = {})
+    @internal_hash.to_report_json(options)
   end
 end
 

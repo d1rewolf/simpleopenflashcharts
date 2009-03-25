@@ -63,7 +63,7 @@ class ReportsController < ApplicationController
           y.min   = 0
         end
 
-        render :text => c.to_json, :layout => false
+        render :text => c.to_report_json, :layout => false
       end
     end
   end

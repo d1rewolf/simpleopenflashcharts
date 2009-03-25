@@ -126,3 +126,26 @@ Completed in 3ms (View: 1, DB: 0) | 200 OK [http://localhost/reports/stacked_bar
 
 Processing ReportsController#stacked_bar_example to json (for 127.0.0.1 at 2009-03-25 13:47:51) [GET]
 Completed in 5ms (View: 0, DB: 0) | 200 OK [http://localhost/reports/stacked_bar_example?format=json]
+
+
+Processing ReportsController#index (for 127.0.0.1 at 2009-03-25 14:28:38) [GET]
+Rendering reports/index
+Completed in 7ms (View: 5, DB: 0) | 200 OK [http://localhost/]
+
+
+Processing ReportsController#stacked_bar_example (for 127.0.0.1 at 2009-03-25 14:28:39) [GET]
+Rendering reports/stacked_bar_example
+Completed in 8ms (View: 3, DB: 0) | 200 OK [http://localhost/reports/stacked_bar_example]
+
+
+Processing ReportsController#stacked_bar_example to json (for 127.0.0.1 at 2009-03-25 14:28:39) [GET]
+Completed in 7ms (View: 0, DB: 0) | 200 OK [http://localhost/reports/stacked_bar_example?format=json]
+
+
+Processing ReportsController#stacked_bar_example (for 127.0.0.1 at 2009-03-25 14:28:53) [GET]
+Rendering reports/stacked_bar_example
+Completed in 4ms (View: 1, DB: 0) | 200 OK [http://localhost/reports/stacked_bar_example]
+
+
+Processing ReportsController#stacked_bar_example to json (for 127.0.0.1 at 2009-03-25 14:28:53) [GET]
+Completed in 7ms (View: 0, DB: 0) | 200 OK [http://localhost/reports/stacked_bar_example?format=json]
