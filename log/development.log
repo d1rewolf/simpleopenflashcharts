@@ -1,0 +1,128 @@
+
+
+Processing ApplicationController#index (for 127.0.0.1 at 2009-03-25 13:42:13) [GET]
+
+SyntaxError (/opt/workspace/ruby/openflash/app/controllers/reports_controller.rb:18: syntax error, unexpected tINTEGER, expecting kDO or '{' or '('
+          values << [rand 200, rand 200]
+                                       ^
+/opt/workspace/ruby/openflash/app/controllers/reports_controller.rb:22: syntax error, unexpected kDO_BLOCK, expecting kEND
+        c.title do |t|
+                  ^
+/opt/workspace/ruby/openflash/app/controllers/reports_controller.rb:45: syntax error, unexpected kDO_BLOCK, expecting kEND
+        (1..20).each do |one|
+                       ^
+/opt/workspace/ruby/openflash/app/controllers/reports_controller.rb:46: syntax error, unexpected kDO_BLOCK, expecting kEND
+          labels << ChartElement.new do |e|
+                                       ^
+/opt/workspace/ruby/openflash/app/controllers/reports_controller.rb:53: syntax error, unexpected kDO_BLOCK, expecting kEND
+        c.x_axis do |x|
+                   ^
+/opt/workspace/ruby/openflash/app/controllers/reports_controller.rb:54: syntax error, unexpected kDO_BLOCK, expecting kEND
+          x.labels do |l|
+                     ^
+/opt/workspace/ruby/openflash/app/controllers/reports_controller.rb:60: syntax error, unexpected kDO_BLOCK, expecting $end
+        c.y_axis do |y|
+                   ^):
+  
+
+Rendered rescues/_trace (32.9ms)
+Rendered rescues/_request_and_response (1.1ms)
+Rendering rescues/layout (internal_server_error)
+
+
+Processing ReportsController#index (for 127.0.0.1 at 2009-03-25 13:42:41) [GET]
+
+NameError (uninitialized constant ReportsController::OpenFlashChart):
+  app/controllers/reports_controller.rb:9:in `index'
+  app/controllers/reports_controller.rb:6:in `index'
+
+Rendered rescues/_trace (39.6ms)
+Rendered rescues/_request_and_response (1.1ms)
+Rendering rescues/layout (internal_server_error)
+
+
+Processing ReportsController#index (for 127.0.0.1 at 2009-03-25 13:43:13) [GET]
+
+ActionView::MissingTemplate (Missing template reports/index.erb in view path app/views):
+  
+
+Rendering rescues/layout (internal_server_error)
+
+
+Processing ReportsController#index (for 127.0.0.1 at 2009-03-25 13:43:15) [GET]
+
+ActionView::MissingTemplate (Missing template reports/index.erb in view path app/views):
+  
+
+Rendering rescues/layout (internal_server_error)
+
+
+Processing ReportsController#index (for 127.0.0.1 at 2009-03-25 13:43:56) [GET]
+Rendering reports/index
+Completed in 10ms (View: 5, DB: 0) | 200 OK [http://localhost/]
+
+
+Processing ReportsController#index (for 127.0.0.1 at 2009-03-25 13:43:57) [GET]
+Rendering reports/index
+Completed in 3ms (View: 0, DB: 0) | 200 OK [http://localhost/]
+
+
+Processing ReportsController#index (for 127.0.0.1 at 2009-03-25 13:45:30) [GET]
+Rendering reports/index
+Completed in 10ms (View: 5, DB: 0) | 200 OK [http://localhost/]
+
+
+Processing ReportsController#stacked_bar_example (for 127.0.0.1 at 2009-03-25 13:45:32) [GET]
+Rendering reports/stacked_bar_example
+Completed in 4ms (View: 3, DB: 0) | 200 OK [http://localhost/reports/stacked_bar_example]
+
+
+Processing ReportsController#stacked_bar_example (for 127.0.0.1 at 2009-03-25 13:46:09) [GET]
+Rendering reports/stacked_bar_example
+Completed in 10ms (View: 5, DB: 0) | 200 OK [http://localhost/reports/stacked_bar_example]
+
+
+Processing ReportsController#stacked_bar_example (for 127.0.0.1 at 2009-03-25 13:46:13) [GET]
+Rendering reports/stacked_bar_example
+Completed in 3ms (View: 0, DB: 0) | 200 OK [http://localhost/reports/stacked_bar_example]
+
+
+Processing ReportsController#stacked_bar_example (for 127.0.0.1 at 2009-03-25 13:47:10) [GET]
+Rendering reports/stacked_bar_example
+Completed in 10ms (View: 5, DB: 0) | 200 OK [http://localhost/reports/stacked_bar_example]
+
+
+Processing ReportsController#stacked_bar_example to json (for 127.0.0.1 at 2009-03-25 13:47:11) [GET]
+Completed in 7ms (View: 0, DB: 0) | 200 OK [http://localhost/reports/stacked_bar_example?format=json]
+
+
+Processing ReportsController#stacked_bar_example (for 127.0.0.1 at 2009-03-25 13:47:15) [GET]
+Rendering reports/stacked_bar_example
+Completed in 3ms (View: 1, DB: 0) | 200 OK [http://localhost/reports/stacked_bar_example]
+
+
+Processing ReportsController#stacked_bar_example to json (for 127.0.0.1 at 2009-03-25 13:47:16) [GET]
+Completed in 5ms (View: 0, DB: 0) | 200 OK [http://localhost/reports/stacked_bar_example?format=json]
+
+
+Processing ReportsController#stacked_bar_example (for 127.0.0.1 at 2009-03-25 13:47:44) [GET]
+Rendering reports/stacked_bar_example
+Completed in 10ms (View: 5, DB: 0) | 200 OK [http://localhost/reports/stacked_bar_example]
+
+
+Processing ReportsController#stacked_bar_example to json (for 127.0.0.1 at 2009-03-25 13:47:45) [GET]
+Completed in 6ms (View: 0, DB: 0) | 200 OK [http://localhost/reports/stacked_bar_example?format=json]
+
+
+Processing ReportsController#index (for 127.0.0.1 at 2009-03-25 13:47:48) [GET]
+Rendering reports/index
+Completed in 5ms (View: 3, DB: 0) | 200 OK [http://localhost/]
+
+
+Processing ReportsController#stacked_bar_example (for 127.0.0.1 at 2009-03-25 13:47:50) [GET]
+Rendering reports/stacked_bar_example
+Completed in 3ms (View: 1, DB: 0) | 200 OK [http://localhost/reports/stacked_bar_example]
+
+
+Processing ReportsController#stacked_bar_example to json (for 127.0.0.1 at 2009-03-25 13:47:51) [GET]
+Completed in 5ms (View: 0, DB: 0) | 200 OK [http://localhost/reports/stacked_bar_example?format=json]
