@@ -2,6 +2,10 @@ Hash.class_eval do |h|
   alias_method(:to_report_json, :to_json)
 end
 
+Array.class_eval do |a|
+  alias_method(:to_report_json, :to_json)
+end
+
 class ChartElement
   attr_accessor :internal_hash
   def initialize(&proc)
